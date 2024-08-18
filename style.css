@@ -19,7 +19,7 @@ nav{
     float: left;
     display: block;
     /* color: #0c0c0c; */
-    color: #fafafa;
+    color: #000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -301,7 +301,7 @@ main{
 }
 
  .main {
-    color: #fafafa;
+    color:#000 !important;
  }
 
  .About-us{
