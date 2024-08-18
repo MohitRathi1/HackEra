@@ -300,8 +300,8 @@ main{
     z-index: -1; /* Sends the video behind other content */
 }
 
- .main {
-    color:#000 !important;
+ .main h1,h2{
+    color:#000;
  }
 
  .About-us{
