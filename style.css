@@ -19,7 +19,7 @@ nav{
     float: left;
     display: block;
     /* color: #0c0c0c; */
-    color: #000;
+    color: #fafafa;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -106,9 +106,11 @@ nav{
     }
     .main h1{
         font-size: 30px !important;
+        color: #000;
     }
     .main h2{
         font-size: 15px !important;
+        color: #000;
     }
     
     
@@ -300,8 +302,9 @@ main{
     z-index: -1; /* Sends the video behind other content */
 }
 
- .main h1,h2{
-    color:#000;
+ .main {
+color: #000;
+    /* color: #fafafa; */
  }
 
  .About-us{
@@ -318,11 +321,11 @@ main{
     height: 40px;
     border-radius: 9px;
     background:transparent;
-    color: #fafafa;
-    border: #fafafa 2px solid;
+    color: #070707;
+    border: #020202 2px solid;
 }
 .main button:hover{
-    background: white;
-    color: #000;
+    background: rgb(7, 7, 7);
+    color: #fcfafa;
     cursor: pointer;
 transition: 0.5s;}
